@@ -62,7 +62,7 @@ export function FormImageUpload(props: FormFileUploadProps) {
     <FormField
       control={form.control}
       name={name}
-      render={({ field }) => {
+      render={({ }) => {
         return (
           <FormItem>
             <FormControl>

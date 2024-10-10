@@ -34,7 +34,7 @@ export function FormRadioButtons(props: FormRadioButtonsProps) {
               onValueChange={(e) => field.onChange(e)}
             >
               {options ?
-                options.map((option, index) => {
+                options.map((option) => {
                   const optionLabel = option[optionLabelKey];
                   const optionValue = option[optionValueKey].toString();
 
